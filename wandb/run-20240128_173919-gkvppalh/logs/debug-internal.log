@@ -1,0 +1,112 @@
+2024-01-28 17:39:19,142 INFO    StreamThr :12428 [internal.py:wandb_internal():86] W&B internal server running at pid: 12428, started at: 2024-01-28 17:39:19.142938
+2024-01-28 17:39:19,157 DEBUG   HandlerThread:12428 [handler.py:handle_request():146] handle_request: status
+2024-01-28 17:39:19,162 INFO    WriterThread:12428 [datastore.py:open_for_write():85] open: f:\pet projects\ImageQuizBot\wandb\run-20240128_173919-gkvppalh\run-gkvppalh.wandb
+2024-01-28 17:39:19,163 DEBUG   SenderThread:12428 [sender.py:send():382] send: header
+2024-01-28 17:39:19,166 DEBUG   SenderThread:12428 [sender.py:send():382] send: run
+2024-01-28 17:39:19,771 INFO    SenderThread:12428 [dir_watcher.py:__init__():211] watching files in: f:\pet projects\ImageQuizBot\wandb\run-20240128_173919-gkvppalh\files
+2024-01-28 17:39:19,771 INFO    SenderThread:12428 [sender.py:_start_run_threads():1136] run started: gkvppalh with start time 1706456359.144957
+2024-01-28 17:39:19,781 DEBUG   HandlerThread:12428 [handler.py:handle_request():146] handle_request: check_version
+2024-01-28 17:39:19,781 DEBUG   SenderThread:12428 [sender.py:send_request():409] send_request: check_version
+2024-01-28 17:39:19,999 DEBUG   HandlerThread:12428 [handler.py:handle_request():146] handle_request: run_start
+2024-01-28 17:39:20,392 DEBUG   HandlerThread:12428 [system_info.py:__init__():32] System info init
+2024-01-28 17:39:20,392 DEBUG   HandlerThread:12428 [system_info.py:__init__():47] System info init done
+2024-01-28 17:39:20,393 INFO    HandlerThread:12428 [system_monitor.py:start():194] Starting system monitor
+2024-01-28 17:39:20,394 INFO    SystemMonitor:12428 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-28 17:39:20,395 INFO    HandlerThread:12428 [system_monitor.py:probe():214] Collecting system info
+2024-01-28 17:39:20,398 INFO    SystemMonitor:12428 [interfaces.py:start():190] Started cpu monitoring
+2024-01-28 17:39:20,400 INFO    SystemMonitor:12428 [interfaces.py:start():190] Started disk monitoring
+2024-01-28 17:39:20,403 INFO    SystemMonitor:12428 [interfaces.py:start():190] Started gpu monitoring
+2024-01-28 17:39:20,405 INFO    SystemMonitor:12428 [interfaces.py:start():190] Started memory monitoring
+2024-01-28 17:39:20,432 INFO    SystemMonitor:12428 [interfaces.py:start():190] Started network monitoring
+2024-01-28 17:39:20,443 DEBUG   HandlerThread:12428 [system_info.py:probe():196] Probing system
+2024-01-28 17:39:20,445 DEBUG   HandlerThread:12428 [gitlib.py:_init_repo():56] git repository is invalid
+2024-01-28 17:39:20,445 DEBUG   HandlerThread:12428 [system_info.py:probe():244] Probing system done
+2024-01-28 17:39:20,445 DEBUG   HandlerThread:12428 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.9.7', 'heartbeatAt': '2024-01-28T15:39:20.443081', 'startedAt': '2024-01-28T15:39:19.130119', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'MAKSYMPC', 'username': 'Admin', 'executable': 'c:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python39\\python.exe', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 2600.0, 'min': 0.0, 'max': 2701.0}, 'cpu_freq_per_core': [{'current': 2600.0, 'min': 0.0, 'max': 2701.0}], 'disk': {'/': {'total': 953.8525352478027, 'used': 436.82889556884766}}, 'gpu': 'NVIDIA GeForce 940MX', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce 940MX', 'memory_total': 2147483648}], 'memory': {'total': 7.886325836181641}}
+2024-01-28 17:39:20,445 INFO    HandlerThread:12428 [system_monitor.py:probe():224] Finished collecting system info
+2024-01-28 17:39:20,445 INFO    HandlerThread:12428 [system_monitor.py:probe():227] Publishing system info
+2024-01-28 17:39:20,446 DEBUG   HandlerThread:12428 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-01-28 17:39:20,447 DEBUG   HandlerThread:12428 [system_info.py:_save_pip():68] Saving pip packages done
+2024-01-28 17:39:20,449 INFO    HandlerThread:12428 [system_monitor.py:probe():229] Finished publishing system info
+2024-01-28 17:39:20,454 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:20,454 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:20,468 DEBUG   SenderThread:12428 [sender.py:send():382] send: files
+2024-01-28 17:39:20,468 INFO    SenderThread:12428 [sender.py:_save_file():1392] saving file wandb-metadata.json with policy now
+2024-01-28 17:39:20,499 DEBUG   HandlerThread:12428 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-28 17:39:20,499 DEBUG   SenderThread:12428 [sender.py:send_request():409] send_request: stop_status
+2024-01-28 17:39:20,503 DEBUG   HandlerThread:12428 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-28 17:39:20,776 INFO    Thread-16 :12428 [dir_watcher.py:_on_file_created():271] file/dir created: f:\pet projects\ImageQuizBot\wandb\run-20240128_173919-gkvppalh\files\wandb-metadata.json
+2024-01-28 17:39:20,776 INFO    Thread-16 :12428 [dir_watcher.py:_on_file_created():271] file/dir created: f:\pet projects\ImageQuizBot\wandb\run-20240128_173919-gkvppalh\files\requirements.txt
+2024-01-28 17:39:20,799 DEBUG   SenderThread:12428 [sender.py:send():382] send: telemetry
+2024-01-28 17:39:21,176 INFO    wandb-upload_0:12428 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpn9rydvs5wandb\9ye11x7e-wandb-metadata.json
+2024-01-28 17:39:22,482 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:22,482 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:23,794 INFO    Thread-16 :12428 [dir_watcher.py:_on_file_created():271] file/dir created: f:\pet projects\ImageQuizBot\wandb\run-20240128_173919-gkvppalh\files\output.log
+2024-01-28 17:39:24,536 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:24,537 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:24,630 DEBUG   HandlerThread:12428 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:39:25,810 INFO    Thread-16 :12428 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173919-gkvppalh\files\output.log
+2024-01-28 17:39:26,564 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:26,565 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:28,605 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:28,607 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:29,735 DEBUG   HandlerThread:12428 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:39:29,846 INFO    Thread-16 :12428 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173919-gkvppalh\files\output.log
+2024-01-28 17:39:30,643 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:30,643 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:32,684 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:32,684 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:33,901 INFO    Thread-16 :12428 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173919-gkvppalh\files\output.log
+2024-01-28 17:39:34,726 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:34,726 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:35,479 DEBUG   HandlerThread:12428 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:39:35,510 DEBUG   HandlerThread:12428 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-28 17:39:35,510 DEBUG   HandlerThread:12428 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-28 17:39:35,511 DEBUG   SenderThread:12428 [sender.py:send_request():409] send_request: stop_status
+2024-01-28 17:39:36,757 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:36,758 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:38,796 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:38,797 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:40,828 DEBUG   HandlerThread:12428 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:39:41,041 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:41,041 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:43,065 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:43,065 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:45,105 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:45,105 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:45,911 DEBUG   HandlerThread:12428 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:39:47,156 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:47,157 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:49,207 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:49,208 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:50,499 DEBUG   HandlerThread:12428 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-28 17:39:50,515 DEBUG   HandlerThread:12428 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-28 17:39:50,516 DEBUG   SenderThread:12428 [sender.py:send_request():409] send_request: stop_status
+2024-01-28 17:39:51,060 DEBUG   HandlerThread:12428 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:39:51,481 ERROR   gpu       :12428 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-01-28 17:39:51,513 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:51,514 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:52,109 INFO    Thread-16 :12428 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173919-gkvppalh\files\config.yaml
+2024-01-28 17:39:53,557 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:53,559 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:55,592 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:55,592 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:56,606 DEBUG   HandlerThread:12428 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:39:57,638 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:57,638 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:59,657 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:39:59,657 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:40:01,664 DEBUG   HandlerThread:12428 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:40:01,896 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:40:01,896 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:40:03,936 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:40:03,937 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:40:05,513 DEBUG   HandlerThread:12428 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-28 17:40:05,530 DEBUG   HandlerThread:12428 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-28 17:40:05,531 DEBUG   SenderThread:12428 [sender.py:send_request():409] send_request: stop_status
+2024-01-28 17:40:05,971 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:40:05,971 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:40:06,762 DEBUG   HandlerThread:12428 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:40:08,000 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:40:08,001 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:40:10,082 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:40:10,083 ERROR   gpu       :12428 [interfaces.py:monitor():144] Failed to sample metric: Not Supported

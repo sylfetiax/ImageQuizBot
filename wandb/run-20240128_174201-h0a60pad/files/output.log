@@ -1,0 +1,5 @@
+
+[34m[1mAMP: [39m[22mrunning Automatic Mixed Precision (AMP) checks with YOLOv8n...
+[34m[1mAMP: [39m[22mchecks passed ✅
+WARNING ⚠️ imgsz=[70] must be multiple of max stride 32, updating to [96]
+[34m[1mtrain: [39m[22mScanning F:\pet projects\ImageQuizBot\data_new\train... 25384 images, 0 corrupt: 100%|██████████| 25384/25384 [00:00<?, ?it/s]

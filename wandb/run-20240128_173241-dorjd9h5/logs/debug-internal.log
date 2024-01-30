@@ -1,0 +1,729 @@
+2024-01-28 17:32:41,101 INFO    StreamThr :14684 [internal.py:wandb_internal():86] W&B internal server running at pid: 14684, started at: 2024-01-28 17:32:41.100756
+2024-01-28 17:32:41,110 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status
+2024-01-28 17:32:41,116 INFO    WriterThread:14684 [datastore.py:open_for_write():85] open: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\run-dorjd9h5.wandb
+2024-01-28 17:32:41,121 DEBUG   SenderThread:14684 [sender.py:send():382] send: header
+2024-01-28 17:32:41,121 DEBUG   SenderThread:14684 [sender.py:send():382] send: run
+2024-01-28 17:32:41,726 INFO    SenderThread:14684 [dir_watcher.py:__init__():211] watching files in: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files
+2024-01-28 17:32:41,750 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: check_version
+2024-01-28 17:32:41,777 INFO    SenderThread:14684 [sender.py:_start_run_threads():1136] run started: dorjd9h5 with start time 1706455961.08276
+2024-01-28 17:32:41,778 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: check_version
+2024-01-28 17:32:41,970 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: run_start
+2024-01-28 17:32:42,383 DEBUG   HandlerThread:14684 [system_info.py:__init__():32] System info init
+2024-01-28 17:32:42,383 DEBUG   HandlerThread:14684 [system_info.py:__init__():47] System info init done
+2024-01-28 17:32:42,383 INFO    HandlerThread:14684 [system_monitor.py:start():194] Starting system monitor
+2024-01-28 17:32:42,389 INFO    SystemMonitor:14684 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-28 17:32:42,389 INFO    HandlerThread:14684 [system_monitor.py:probe():214] Collecting system info
+2024-01-28 17:32:42,394 INFO    SystemMonitor:14684 [interfaces.py:start():190] Started cpu monitoring
+2024-01-28 17:32:42,395 INFO    SystemMonitor:14684 [interfaces.py:start():190] Started disk monitoring
+2024-01-28 17:32:42,400 INFO    SystemMonitor:14684 [interfaces.py:start():190] Started gpu monitoring
+2024-01-28 17:32:42,402 INFO    SystemMonitor:14684 [interfaces.py:start():190] Started memory monitoring
+2024-01-28 17:32:42,419 INFO    SystemMonitor:14684 [interfaces.py:start():190] Started network monitoring
+2024-01-28 17:32:42,450 DEBUG   HandlerThread:14684 [system_info.py:probe():196] Probing system
+2024-01-28 17:32:42,450 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:32:42,451 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:32:42,452 DEBUG   HandlerThread:14684 [gitlib.py:_init_repo():56] git repository is invalid
+2024-01-28 17:32:42,452 DEBUG   HandlerThread:14684 [system_info.py:probe():244] Probing system done
+2024-01-28 17:32:42,452 DEBUG   HandlerThread:14684 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.19045-SP0', 'python': '3.9.7', 'heartbeatAt': '2024-01-28T15:32:42.450200', 'startedAt': '2024-01-28T15:32:41.047782', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'host': 'MAKSYMPC', 'username': 'Admin', 'executable': 'c:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python39\\python.exe', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 2600.0, 'min': 0.0, 'max': 2701.0}, 'cpu_freq_per_core': [{'current': 2600.0, 'min': 0.0, 'max': 2701.0}], 'disk': {'/': {'total': 953.8525352478027, 'used': 436.8215217590332}}, 'gpu': 'NVIDIA GeForce 940MX', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce 940MX', 'memory_total': 2147483648}], 'memory': {'total': 7.886325836181641}}
+2024-01-28 17:32:42,452 INFO    HandlerThread:14684 [system_monitor.py:probe():224] Finished collecting system info
+2024-01-28 17:32:42,452 INFO    HandlerThread:14684 [system_monitor.py:probe():227] Publishing system info
+2024-01-28 17:32:42,452 DEBUG   HandlerThread:14684 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-01-28 17:32:42,454 DEBUG   HandlerThread:14684 [system_info.py:_save_pip():68] Saving pip packages done
+2024-01-28 17:32:42,455 INFO    HandlerThread:14684 [system_monitor.py:probe():229] Finished publishing system info
+2024-01-28 17:32:42,473 DEBUG   SenderThread:14684 [sender.py:send():382] send: files
+2024-01-28 17:32:42,473 INFO    SenderThread:14684 [sender.py:_save_file():1392] saving file wandb-metadata.json with policy now
+2024-01-28 17:32:42,526 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-28 17:32:42,526 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: stop_status
+2024-01-28 17:32:42,536 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-28 17:32:42,735 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_created():271] file/dir created: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\requirements.txt
+2024-01-28 17:32:42,736 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_created():271] file/dir created: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\wandb-metadata.json
+2024-01-28 17:32:42,833 DEBUG   SenderThread:14684 [sender.py:send():382] send: telemetry
+2024-01-28 17:32:43,226 INFO    wandb-upload_0:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\7tc6eveq-wandb-metadata.json
+2024-01-28 17:32:44,501 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:32:44,501 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:32:46,563 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:32:46,564 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:32:46,809 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:32:47,776 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_created():271] file/dir created: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:32:48,624 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:32:48,624 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:32:49,788 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:32:50,669 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:32:50,669 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:32:52,618 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:32:52,697 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:32:52,698 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:32:53,837 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:32:54,736 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:32:54,736 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:32:56,775 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:32:56,775 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:32:57,536 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-28 17:32:57,557 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: stop_status
+2024-01-28 17:32:57,568 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-28 17:32:57,821 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:32:58,816 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:32:58,816 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:32:59,906 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:33:00,867 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:00,868 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:02,897 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:33:03,125 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:03,126 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:05,148 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:05,149 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:07,179 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:07,179 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:07,992 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:33:09,211 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:09,211 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:10,030 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:33:11,236 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:11,236 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:12,544 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-28 17:33:12,545 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: stop_status
+2024-01-28 17:33:12,575 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-28 17:33:13,282 ERROR   gpu       :14684 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-01-28 17:33:13,304 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:13,304 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:13,914 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:33:15,183 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\config.yaml
+2024-01-28 17:33:15,342 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:15,342 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:17,378 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:17,378 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:19,403 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:19,403 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:19,940 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:33:21,295 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:33:21,437 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:21,437 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:23,364 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:33:23,475 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:23,476 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:24,997 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:33:25,409 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:33:25,516 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:25,516 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:27,458 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:33:27,541 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-28 17:33:27,542 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: stop_status
+2024-01-28 17:33:27,551 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:27,551 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:27,592 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-28 17:33:29,498 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:33:29,581 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:29,581 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:30,068 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:33:31,559 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:33:31,616 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:31,617 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:33,602 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:33:33,645 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:33,646 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:35,123 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:33:35,658 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:33:35,688 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:35,688 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:37,709 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:33:37,730 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:37,731 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:39,748 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:33:39,769 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:39,770 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:40,145 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:33:41,780 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:33:41,803 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:41,804 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:42,430 DEBUG   SystemMonitor:14684 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-28 17:33:42,432 DEBUG   SenderThread:14684 [sender.py:send():382] send: stats
+2024-01-28 17:33:42,549 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-28 17:33:42,550 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: stop_status
+2024-01-28 17:33:42,596 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-28 17:33:43,847 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:33:43,878 ERROR   gpu       :14684 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-01-28 17:33:43,899 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:43,899 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:45,214 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:33:45,858 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:33:45,937 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:45,937 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:47,889 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:33:48,004 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:48,005 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:49,919 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:33:50,058 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:50,059 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:50,250 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:33:51,943 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:33:52,130 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:52,131 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:53,961 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:33:54,185 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:54,185 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:55,304 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:33:55,984 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:33:56,251 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:56,252 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:57,574 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-28 17:33:57,575 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: stop_status
+2024-01-28 17:33:57,613 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-28 17:33:58,002 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:33:58,310 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:33:58,310 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:00,021 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:00,347 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:34:00,362 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:00,363 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:02,035 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:02,442 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:02,443 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:04,061 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:04,558 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:04,558 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:05,399 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:34:06,107 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:06,607 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:06,608 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:08,129 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:08,661 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:08,661 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:10,155 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:10,458 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:34:10,727 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:10,728 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:12,207 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:12,440 DEBUG   SenderThread:14684 [sender.py:send():382] send: stats
+2024-01-28 17:34:12,569 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-28 17:34:12,570 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: stop_status
+2024-01-28 17:34:12,638 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-28 17:34:12,809 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:12,810 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:14,234 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:14,913 ERROR   gpu       :14684 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-01-28 17:34:14,942 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:14,942 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:15,481 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:34:16,265 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:16,988 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:16,988 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:18,288 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:19,032 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:19,032 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:20,319 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:20,551 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:34:21,076 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:21,077 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:22,337 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:23,124 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:23,125 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:24,369 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:25,171 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:25,172 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:25,591 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:34:26,383 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:27,213 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:27,214 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:27,578 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-28 17:34:27,579 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: stop_status
+2024-01-28 17:34:27,624 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-28 17:34:28,440 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:29,286 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:29,287 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:30,462 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:30,636 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:34:31,357 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:31,359 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:32,499 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:33,423 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:33,423 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:34,516 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:35,502 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:35,502 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:35,703 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:34:36,539 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:37,566 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:37,567 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:38,560 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:39,612 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:39,613 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:40,602 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:40,731 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:34:41,712 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:41,713 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:42,459 DEBUG   SenderThread:14684 [sender.py:send():382] send: stats
+2024-01-28 17:34:42,587 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-28 17:34:42,588 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: stop_status
+2024-01-28 17:34:42,636 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-28 17:34:42,666 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:43,763 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:43,764 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:44,746 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:45,733 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:34:45,879 ERROR   gpu       :14684 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-01-28 17:34:45,911 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:45,911 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:46,833 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:47,997 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:47,998 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:48,854 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:50,031 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:50,031 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:50,792 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:34:50,872 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:52,079 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:52,079 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:52,893 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:54,183 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:54,183 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:54,925 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:55,828 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:34:56,258 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:56,259 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:56,951 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:34:57,590 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-28 17:34:57,591 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: stop_status
+2024-01-28 17:34:57,656 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-28 17:34:58,368 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:58,368 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:34:58,992 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:35:00,510 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:00,511 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:00,855 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:35:01,033 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:35:02,625 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:02,626 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:03,058 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:35:04,682 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:04,683 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:05,074 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:35:05,906 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:35:06,760 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:06,760 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:07,095 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:35:08,845 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:08,846 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:09,112 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:35:10,915 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:10,915 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:10,952 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:35:11,137 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:35:12,471 DEBUG   SenderThread:14684 [sender.py:send():382] send: stats
+2024-01-28 17:35:12,597 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-28 17:35:12,598 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: stop_status
+2024-01-28 17:35:12,660 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-28 17:35:12,963 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:12,963 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:13,147 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:35:15,020 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:15,021 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:15,164 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:35:15,991 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:35:17,121 ERROR   gpu       :14684 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-01-28 17:35:17,149 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:17,150 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:17,190 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:35:19,207 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:19,207 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:19,213 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:35:21,025 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:35:21,260 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:35:21,307 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:21,307 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:23,287 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:35:23,346 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:23,346 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:25,306 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:35:25,379 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:25,380 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:26,101 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:35:27,355 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:35:27,420 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:27,420 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:27,605 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-28 17:35:27,606 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: stop_status
+2024-01-28 17:35:27,668 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-28 17:35:28,365 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:35:29,478 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:29,478 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:30,417 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:35:31,126 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:35:31,526 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:31,526 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:32,427 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:35:33,589 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:33,589 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:34,444 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:35:35,630 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:35,630 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:36,134 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:35:36,467 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:35:37,694 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:37,694 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:38,488 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:35:39,743 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:39,743 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:40,506 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:35:41,167 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:35:41,814 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:41,814 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:42,482 DEBUG   SenderThread:14684 [sender.py:send():382] send: stats
+2024-01-28 17:35:42,532 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:35:42,608 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-28 17:35:42,608 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: stop_status
+2024-01-28 17:35:42,674 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-28 17:35:43,870 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:43,870 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:43,938 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-28 17:35:43,938 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-28 17:35:44,565 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:35:45,923 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:45,924 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:46,246 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:35:46,617 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:35:48,014 ERROR   gpu       :14684 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-01-28 17:35:48,042 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:48,044 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:48,633 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:35:50,085 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:50,085 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:52,111 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:52,111 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:52,198 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:35:54,160 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:54,160 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:56,246 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:56,247 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:57,946 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:35:58,015 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-28 17:35:58,016 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: stop_status
+2024-01-28 17:35:58,063 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-28 17:35:58,316 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:58,316 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:35:58,855 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:35:58,955 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-28 17:35:59,556 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-28 17:35:59,560 DEBUG   SenderThread:14684 [sender.py:send():382] send: files
+2024-01-28 17:35:59,560 INFO    SenderThread:14684 [sender.py:_save_file():1392] saving file media\images\train_batch0_1_98d27230f8db230cfedb.jpg with policy now
+2024-01-28 17:35:59,573 DEBUG   SenderThread:14684 [sender.py:send():382] send: files
+2024-01-28 17:35:59,575 INFO    SenderThread:14684 [sender.py:_save_file():1392] saving file media\images\train_batch1_1_3663f9dacc53b7ad4dbc.jpg with policy now
+2024-01-28 17:35:59,573 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-28 17:35:59,592 DEBUG   SenderThread:14684 [sender.py:send():382] send: files
+2024-01-28 17:35:59,593 INFO    SenderThread:14684 [sender.py:_save_file():1392] saving file media\images\train_batch2_1_22cb47de049d40dcba39.jpg with policy now
+2024-01-28 17:35:59,593 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-28 17:35:59,612 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-28 17:35:59,613 DEBUG   SenderThread:14684 [sender.py:send():382] send: files
+2024-01-28 17:35:59,614 INFO    SenderThread:14684 [sender.py:_save_file():1392] saving file media\images\val_batch0_labels_1_06f0123ddad32e744191.jpg with policy now
+2024-01-28 17:35:59,644 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-28 17:35:59,645 DEBUG   SenderThread:14684 [sender.py:send():382] send: files
+2024-01-28 17:35:59,646 INFO    SenderThread:14684 [sender.py:_save_file():1392] saving file media\images\val_batch0_pred_1_89e3b2371e2808b987c5.jpg with policy now
+2024-01-28 17:35:59,662 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-28 17:35:59,663 DEBUG   SenderThread:14684 [sender.py:send():382] send: files
+2024-01-28 17:35:59,663 INFO    SenderThread:14684 [sender.py:_save_file():1392] saving file media\images\val_batch1_labels_1_5f8b20c0fbee7a8c5522.jpg with policy now
+2024-01-28 17:35:59,698 DEBUG   SenderThread:14684 [sender.py:send():382] send: files
+2024-01-28 17:35:59,699 INFO    SenderThread:14684 [sender.py:_save_file():1392] saving file media\images\val_batch1_pred_1_50c16dcd54a4e3364893.jpg with policy now
+2024-01-28 17:35:59,703 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-28 17:35:59,833 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-28 17:35:59,843 DEBUG   SenderThread:14684 [sender.py:send():382] send: files
+2024-01-28 17:35:59,843 INFO    SenderThread:14684 [sender.py:_save_file():1392] saving file media\images\val_batch2_labels_1_2c7ca7591875df9640a8.jpg with policy now
+2024-01-28 17:35:59,865 DEBUG   SenderThread:14684 [sender.py:send():382] send: files
+2024-01-28 17:35:59,866 INFO    SenderThread:14684 [sender.py:_save_file():1392] saving file media\images\val_batch2_pred_1_fa73038ae7e8dc69f0b6.jpg with policy now
+2024-01-28 17:35:59,867 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-28 17:35:59,915 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_created():271] file/dir created: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\val_batch1_pred_1_50c16dcd54a4e3364893.jpg
+2024-01-28 17:35:59,917 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_created():271] file/dir created: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\train_batch0_1_98d27230f8db230cfedb.jpg
+2024-01-28 17:35:59,918 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_created():271] file/dir created: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\val_batch2_pred_1_fa73038ae7e8dc69f0b6.jpg
+2024-01-28 17:35:59,919 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_created():271] file/dir created: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\train_batch2_1_22cb47de049d40dcba39.jpg
+2024-01-28 17:35:59,920 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_created():271] file/dir created: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\train_batch1_1_3663f9dacc53b7ad4dbc.jpg
+2024-01-28 17:35:59,922 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_created():271] file/dir created: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\val_batch0_labels_1_06f0123ddad32e744191.jpg
+2024-01-28 17:35:59,925 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_created():271] file/dir created: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\val_batch1_labels_1_5f8b20c0fbee7a8c5522.jpg
+2024-01-28 17:35:59,926 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_created():271] file/dir created: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\val_batch0_pred_1_89e3b2371e2808b987c5.jpg
+2024-01-28 17:35:59,927 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_created():271] file/dir created: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\val_batch2_labels_1_2c7ca7591875df9640a8.jpg
+2024-01-28 17:35:59,928 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_created():271] file/dir created: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media
+2024-01-28 17:35:59,929 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_created():271] file/dir created: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images
+2024-01-28 17:36:00,119 INFO    wandb-upload_0:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\7o9hbgd1-media/images/train_batch0_1_98d27230f8db230cfedb.jpg
+2024-01-28 17:36:00,275 INFO    wandb-upload_1:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\z1ve0wl7-media/images/train_batch1_1_3663f9dacc53b7ad4dbc.jpg
+2024-01-28 17:36:00,431 INFO    wandb-upload_4:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\nbnrikgm-media/images/val_batch0_pred_1_89e3b2371e2808b987c5.jpg
+2024-01-28 17:36:00,432 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-28 17:36:00,433 DEBUG   SenderThread:14684 [sender.py:send():382] send: files
+2024-01-28 17:36:00,436 INFO    SenderThread:14684 [sender.py:_save_file():1392] saving file media\images\confusion_matrix_normalized_1_25bc49fad25b53966157.png with policy now
+2024-01-28 17:36:00,455 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:36:00,455 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:36:00,462 INFO    wandb-upload_5:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\zluqyw8h-media/images/val_batch1_labels_1_5f8b20c0fbee7a8c5522.jpg
+2024-01-28 17:36:00,554 INFO    wandb-upload_3:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\5k8twjfg-media/images/val_batch0_labels_1_06f0123ddad32e744191.jpg
+2024-01-28 17:36:00,579 INFO    wandb-upload_7:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\leo3oh5x-media/images/val_batch2_labels_1_2c7ca7591875df9640a8.jpg
+2024-01-28 17:36:00,606 INFO    wandb-upload_2:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\5nq981x6-media/images/train_batch2_1_22cb47de049d40dcba39.jpg
+2024-01-28 17:36:00,682 DEBUG   SenderThread:14684 [sender.py:send():382] send: files
+2024-01-28 17:36:00,683 INFO    SenderThread:14684 [sender.py:_save_file():1392] saving file media\images\confusion_matrix_1_c7a4cd96603052c33d3d.png with policy now
+2024-01-28 17:36:00,701 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-28 17:36:00,738 INFO    wandb-upload_0:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\o2p974bj-media/images/val_batch2_pred_1_fa73038ae7e8dc69f0b6.jpg
+2024-01-28 17:36:00,769 INFO    wandb-upload_6:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\rosyc8d8-media/images/val_batch1_pred_1_50c16dcd54a4e3364893.jpg
+2024-01-28 17:36:00,852 INFO    wandb-upload_8:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\qnuoa9c7-media/images/train_batch0_1_98d27230f8db230cfedb.jpg
+2024-01-28 17:36:00,937 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_created():271] file/dir created: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\confusion_matrix_normalized_1_25bc49fad25b53966157.png
+2024-01-28 17:36:00,939 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_created():271] file/dir created: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\confusion_matrix_1_c7a4cd96603052c33d3d.png
+2024-01-28 17:36:00,943 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images
+2024-01-28 17:36:01,018 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-28 17:36:01,102 INFO    wandb-upload_3:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\35m7a0ew-media/images/val_batch0_labels_1_06f0123ddad32e744191.jpg
+2024-01-28 17:36:01,129 INFO    wandb-upload_4:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\nvy7of4s-media/images/train_batch1_1_3663f9dacc53b7ad4dbc.jpg
+2024-01-28 17:36:01,145 INFO    wandb-upload_7:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\wgm788f2-media/images/val_batch1_labels_1_5f8b20c0fbee7a8c5522.jpg
+2024-01-28 17:36:01,294 INFO    wandb-upload_5:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\vh365k30-media/images/val_batch0_pred_1_89e3b2371e2808b987c5.jpg
+2024-01-28 17:36:01,321 INFO    wandb-upload_0:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\36ihq4xh-media/images/val_batch2_labels_1_2c7ca7591875df9640a8.jpg
+2024-01-28 17:36:01,396 INFO    wandb-upload_2:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\rrg175bh-media/images/confusion_matrix_1_c7a4cd96603052c33d3d.png
+2024-01-28 17:36:01,529 INFO    wandb-upload_6:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\rtao80ux-media/images/val_batch1_pred_1_50c16dcd54a4e3364893.jpg
+2024-01-28 17:36:01,534 INFO    wandb-upload_1:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\53xajx5i-media/images/confusion_matrix_normalized_1_25bc49fad25b53966157.png
+2024-01-28 17:36:01,637 INFO    wandb-upload_8:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\jjlywo44-media/images/val_batch2_pred_1_fa73038ae7e8dc69f0b6.jpg
+2024-01-28 17:36:01,706 INFO    wandb-upload_3:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\a1grpei3-media/images/train_batch2_1_22cb47de049d40dcba39.jpg
+2024-01-28 17:36:02,169 INFO    wandb-upload_4:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\yvs3j80r-media/images/confusion_matrix_1_c7a4cd96603052c33d3d.png
+2024-01-28 17:36:02,310 INFO    wandb-upload_5:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\y2g6knx0-media/images/confusion_matrix_normalized_1_25bc49fad25b53966157.png
+2024-01-28 17:36:02,574 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:36:02,575 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:36:02,976 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:36:03,725 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:36:04,636 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:36:04,637 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:36:05,020 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:36:06,752 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:36:06,753 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:36:07,060 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:36:08,796 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:36:08,796 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:36:08,853 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:36:09,104 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:36:10,857 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:36:10,857 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:36:11,127 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:36:12,452 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-28 17:36:12,484 DEBUG   SenderThread:14684 [sender.py:send():382] send: files
+2024-01-28 17:36:12,484 INFO    SenderThread:14684 [sender.py:_save_file():1392] saving file media\images\val_batch0_labels_1_fe0b0bdde8334fafc5cf.jpg with policy now
+2024-01-28 17:36:12,486 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-28 17:36:12,498 DEBUG   SenderThread:14684 [sender.py:send():382] send: stats
+2024-01-28 17:36:12,520 DEBUG   SenderThread:14684 [sender.py:send():382] send: files
+2024-01-28 17:36:12,521 INFO    SenderThread:14684 [sender.py:_save_file():1392] saving file media\images\val_batch0_pred_1_fd9de2e4d973d66e7d9b.jpg with policy now
+2024-01-28 17:36:12,524 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-28 17:36:12,547 DEBUG   SenderThread:14684 [sender.py:send():382] send: files
+2024-01-28 17:36:12,547 INFO    SenderThread:14684 [sender.py:_save_file():1392] saving file media\images\val_batch1_labels_1_c132c9aec97e81080d36.jpg with policy now
+2024-01-28 17:36:12,548 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-28 17:36:12,563 DEBUG   SenderThread:14684 [sender.py:send():382] send: files
+2024-01-28 17:36:12,563 INFO    SenderThread:14684 [sender.py:_save_file():1392] saving file media\images\val_batch1_pred_1_f2a1523107247c383b3a.jpg with policy now
+2024-01-28 17:36:12,564 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-28 17:36:12,580 DEBUG   SenderThread:14684 [sender.py:send():382] send: files
+2024-01-28 17:36:12,580 INFO    SenderThread:14684 [sender.py:_save_file():1392] saving file media\images\val_batch2_labels_1_aa8d2bea12e4021037c5.jpg with policy now
+2024-01-28 17:36:12,580 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-28 17:36:12,598 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-28 17:36:12,599 DEBUG   SenderThread:14684 [sender.py:send():382] send: files
+2024-01-28 17:36:12,599 INFO    SenderThread:14684 [sender.py:_save_file():1392] saving file media\images\val_batch2_pred_1_805976cc696aeb0ae87c.jpg with policy now
+2024-01-28 17:36:12,758 DEBUG   SenderThread:14684 [sender.py:send():382] send: files
+2024-01-28 17:36:12,759 INFO    SenderThread:14684 [sender.py:_save_file():1392] saving file media\images\confusion_matrix_normalized_1_25bc49fad25b53966157.png with policy now
+2024-01-28 17:36:12,763 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-28 17:36:12,877 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-28 17:36:12,878 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: stop_status
+2024-01-28 17:36:12,896 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-28 17:36:12,907 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-28 17:36:12,908 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:36:12,909 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:36:13,017 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-28 17:36:13,052 INFO    wandb-upload_0:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\3398jjzf-media/images/val_batch1_labels_1_c132c9aec97e81080d36.jpg
+2024-01-28 17:36:13,052 INFO    wandb-upload_3:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\w2fqo0f9-media/images/val_batch1_pred_1_f2a1523107247c383b3a.jpg
+2024-01-28 17:36:13,052 INFO    wandb-upload_2:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\pttkfzws-media/images/val_batch0_labels_1_fe0b0bdde8334fafc5cf.jpg
+2024-01-28 17:36:13,143 INFO    wandb-upload_5:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\zps27cmb-media/images/val_batch2_labels_1_aa8d2bea12e4021037c5.jpg
+2024-01-28 17:36:13,144 INFO    wandb-upload_6:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\ni5l3q79-media/images/val_batch0_pred_1_fd9de2e4d973d66e7d9b.jpg
+2024-01-28 17:36:13,145 DEBUG   SenderThread:14684 [sender.py:send():382] send: files
+2024-01-28 17:36:13,145 INFO    SenderThread:14684 [sender.py:_save_file():1392] saving file media\images\confusion_matrix_1_c7a4cd96603052c33d3d.png with policy now
+2024-01-28 17:36:13,173 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\confusion_matrix_normalized_1_25bc49fad25b53966157.png
+2024-01-28 17:36:13,175 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\confusion_matrix_1_c7a4cd96603052c33d3d.png
+2024-01-28 17:36:13,177 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_created():271] file/dir created: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\val_batch2_pred_1_805976cc696aeb0ae87c.jpg
+2024-01-28 17:36:13,178 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_created():271] file/dir created: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\val_batch2_labels_1_aa8d2bea12e4021037c5.jpg
+2024-01-28 17:36:13,179 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_created():271] file/dir created: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\val_batch0_pred_1_fd9de2e4d973d66e7d9b.jpg
+2024-01-28 17:36:13,181 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_created():271] file/dir created: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\val_batch0_labels_1_fe0b0bdde8334fafc5cf.jpg
+2024-01-28 17:36:13,182 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_created():271] file/dir created: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\val_batch1_pred_1_f2a1523107247c383b3a.jpg
+2024-01-28 17:36:13,184 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_created():271] file/dir created: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\val_batch1_labels_1_c132c9aec97e81080d36.jpg
+2024-01-28 17:36:13,185 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images
+2024-01-28 17:36:13,381 INFO    wandb-upload_1:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\sg0iyofj-media/images/val_batch2_pred_1_805976cc696aeb0ae87c.jpg
+2024-01-28 17:36:13,598 INFO    wandb-upload_4:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\vx1ytix8-media/images/confusion_matrix_normalized_1_25bc49fad25b53966157.png
+2024-01-28 17:36:13,753 INFO    wandb-upload_0:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\cvj7uakn-media/images/val_batch2_labels_1_aa8d2bea12e4021037c5.jpg
+2024-01-28 17:36:13,764 INFO    wandb-upload_2:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\0o32y7ka-media/images/val_batch0_pred_1_fd9de2e4d973d66e7d9b.jpg
+2024-01-28 17:36:13,783 INFO    wandb-upload_6:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\yzr1l4vl-media/images/val_batch0_labels_1_fe0b0bdde8334fafc5cf.jpg
+2024-01-28 17:36:13,792 INFO    wandb-upload_3:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\7rjad0n3-media/images/val_batch1_pred_1_f2a1523107247c383b3a.jpg
+2024-01-28 17:36:13,806 INFO    wandb-upload_7:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\q1vlfqt6-media/images/val_batch1_labels_1_c132c9aec97e81080d36.jpg
+2024-01-28 17:36:13,924 INFO    wandb-upload_8:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\rjahdpye-media/images/confusion_matrix_1_c7a4cd96603052c33d3d.png
+2024-01-28 17:36:14,152 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:36:14,378 INFO    wandb-upload_5:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\yg750fat-media/images/val_batch2_pred_1_805976cc696aeb0ae87c.jpg
+2024-01-28 17:36:14,585 INFO    wandb-upload_4:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\11g21nry-media/images/confusion_matrix_normalized_1_25bc49fad25b53966157.png
+2024-01-28 17:36:14,588 DEBUG   SenderThread:14684 [sender.py:send():382] send: files
+2024-01-28 17:36:14,589 INFO    SenderThread:14684 [sender.py:_save_file():1392] saving file media\images\results_1_6ee4a4c321348226579f.png with policy now
+2024-01-28 17:36:14,590 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-28 17:36:14,685 INFO    wandb-upload_1:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\kfvgd8qj-media/images/confusion_matrix_1_c7a4cd96603052c33d3d.png
+2024-01-28 17:36:14,961 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:36:14,961 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:36:15,196 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:36:15,196 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_created():271] file/dir created: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\results_1_6ee4a4c321348226579f.png
+2024-01-28 17:36:15,196 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images
+2024-01-28 17:36:15,238 INFO    wandb-upload_0:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\r4kv48tt-media/images/results_1_6ee4a4c321348226579f.png
+2024-01-28 17:36:15,255 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: log_artifact
+2024-01-28 17:36:15,256 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: log_artifact
+2024-01-28 17:36:15,949 INFO    wandb-upload_3:14684 [upload_job.py:push():131] Uploaded file C:\Users\Admin\AppData\Local\Temp\tmpswyd4eoqwandb\sskwt1dv-media/images/results_1_6ee4a4c321348226579f.png
+2024-01-28 17:36:16,267 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-28 17:36:16,997 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:36:16,997 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:36:18,647 INFO    wandb-upload_8:14684 [upload_job.py:push():89] Uploaded file C:\Users\Admin\AppData\Local\wandb\wandb\artifacts\staging\tmpwj3mb32g
+2024-01-28 17:36:19,062 ERROR   gpu       :14684 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-01-28 17:36:19,089 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:36:19,089 ERROR   gpu       :14684 [interfaces.py:monitor():144] Failed to sample metric: Not Supported
+2024-01-28 17:36:19,640 INFO    SenderThread:14684 [sender.py:send_request_log_artifact():1458] logged artifact run_dorjd9h5_model - {'id': 'QXJ0aWZhY3Q6NzA1NzIwOTUz', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEzNDU4MTY0NQ==', 'latestArtifact': None}}
+2024-01-28 17:36:19,641 DEBUG   SenderThread:14684 [sender.py:send():382] send: telemetry
+2024-01-28 17:36:19,641 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:36:19,641 DEBUG   SenderThread:14684 [sender.py:send():382] send: exit
+2024-01-28 17:36:19,642 INFO    SenderThread:14684 [sender.py:send_exit():589] handling exit code: 0
+2024-01-28 17:36:19,642 INFO    SenderThread:14684 [sender.py:send_exit():591] handling runtime: 213
+2024-01-28 17:36:19,646 INFO    SenderThread:14684 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-28 17:36:19,647 INFO    SenderThread:14684 [sender.py:send_exit():597] send defer
+2024-01-28 17:36:19,648 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: poll_exit
+2024-01-28 17:36:19,648 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 17:36:19,648 INFO    HandlerThread:14684 [handler.py:handle_request_defer():172] handle defer: 0
+2024-01-28 17:36:19,649 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: defer
+2024-01-28 17:36:19,649 INFO    SenderThread:14684 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-01-28 17:36:19,649 INFO    SenderThread:14684 [sender.py:transition_state():617] send defer: 1
+2024-01-28 17:36:19,650 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 17:36:19,650 INFO    HandlerThread:14684 [handler.py:handle_request_defer():172] handle defer: 1
+2024-01-28 17:36:19,650 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: defer
+2024-01-28 17:36:19,650 INFO    SenderThread:14684 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-01-28 17:36:19,650 INFO    SenderThread:14684 [sender.py:transition_state():617] send defer: 2
+2024-01-28 17:36:19,650 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 17:36:19,651 INFO    HandlerThread:14684 [handler.py:handle_request_defer():172] handle defer: 2
+2024-01-28 17:36:19,651 INFO    HandlerThread:14684 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-28 17:36:19,651 DEBUG   SystemMonitor:14684 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-28 17:36:19,651 INFO    HandlerThread:14684 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-28 17:36:19,651 DEBUG   SystemMonitor:14684 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-28 17:36:19,659 INFO    HandlerThread:14684 [interfaces.py:finish():202] Joined disk monitor
+2024-01-28 17:36:19,691 ERROR   gpu       :14684 [interfaces.py:aggregate():161] Failed to serialize metric: division by zero
+2024-01-28 17:36:19,691 INFO    HandlerThread:14684 [interfaces.py:finish():202] Joined gpu monitor
+2024-01-28 17:36:19,692 INFO    HandlerThread:14684 [interfaces.py:finish():202] Joined memory monitor
+2024-01-28 17:36:19,692 INFO    HandlerThread:14684 [interfaces.py:finish():202] Joined network monitor
+2024-01-28 17:36:19,693 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: defer
+2024-01-28 17:36:19,693 INFO    SenderThread:14684 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-01-28 17:36:19,693 INFO    SenderThread:14684 [sender.py:transition_state():617] send defer: 3
+2024-01-28 17:36:19,693 DEBUG   SenderThread:14684 [sender.py:send():382] send: stats
+2024-01-28 17:36:19,693 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 17:36:19,693 INFO    HandlerThread:14684 [handler.py:handle_request_defer():172] handle defer: 3
+2024-01-28 17:36:19,695 DEBUG   SenderThread:14684 [sender.py:send():382] send: history
+2024-01-28 17:36:19,696 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: summary_record
+2024-01-28 17:36:19,697 INFO    SenderThread:14684 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-28 17:36:19,697 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: defer
+2024-01-28 17:36:19,698 INFO    SenderThread:14684 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-01-28 17:36:19,698 INFO    SenderThread:14684 [sender.py:transition_state():617] send defer: 4
+2024-01-28 17:36:19,698 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 17:36:19,698 INFO    HandlerThread:14684 [handler.py:handle_request_defer():172] handle defer: 4
+2024-01-28 17:36:19,698 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: defer
+2024-01-28 17:36:19,699 INFO    SenderThread:14684 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-01-28 17:36:19,699 INFO    SenderThread:14684 [sender.py:transition_state():617] send defer: 5
+2024-01-28 17:36:19,699 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 17:36:19,699 INFO    HandlerThread:14684 [handler.py:handle_request_defer():172] handle defer: 5
+2024-01-28 17:36:19,699 DEBUG   SenderThread:14684 [sender.py:send():382] send: summary
+2024-01-28 17:36:19,700 INFO    SenderThread:14684 [sender.py:_save_file():1392] saving file wandb-summary.json with policy end
+2024-01-28 17:36:19,701 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: defer
+2024-01-28 17:36:19,701 INFO    SenderThread:14684 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-01-28 17:36:19,701 INFO    SenderThread:14684 [sender.py:transition_state():617] send defer: 6
+2024-01-28 17:36:19,702 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 17:36:19,702 INFO    HandlerThread:14684 [handler.py:handle_request_defer():172] handle defer: 6
+2024-01-28 17:36:19,702 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: defer
+2024-01-28 17:36:19,702 INFO    SenderThread:14684 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-01-28 17:36:19,711 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: status_report
+2024-01-28 17:36:19,972 INFO    SenderThread:14684 [sender.py:transition_state():617] send defer: 7
+2024-01-28 17:36:19,973 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 17:36:19,973 INFO    HandlerThread:14684 [handler.py:handle_request_defer():172] handle defer: 7
+2024-01-28 17:36:19,973 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: defer
+2024-01-28 17:36:19,973 INFO    SenderThread:14684 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-01-28 17:36:20,247 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\config.yaml
+2024-01-28 17:36:20,248 INFO    Thread-16 :14684 [dir_watcher.py:_on_file_created():271] file/dir created: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\wandb-summary.json
+2024-01-28 17:36:20,309 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-28 17:36:20,814 INFO    SenderThread:14684 [sender.py:transition_state():617] send defer: 8
+2024-01-28 17:36:20,815 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: poll_exit
+2024-01-28 17:36:20,815 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 17:36:20,816 INFO    HandlerThread:14684 [handler.py:handle_request_defer():172] handle defer: 8
+2024-01-28 17:36:20,816 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: defer
+2024-01-28 17:36:20,816 INFO    SenderThread:14684 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-01-28 17:36:20,816 INFO    SenderThread:14684 [job_builder.py:build():298] Attempting to build job artifact
+2024-01-28 17:36:20,819 INFO    SenderThread:14684 [job_builder.py:_get_source_type():439] no source found
+2024-01-28 17:36:20,820 INFO    SenderThread:14684 [sender.py:transition_state():617] send defer: 9
+2024-01-28 17:36:20,821 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 17:36:20,821 INFO    HandlerThread:14684 [handler.py:handle_request_defer():172] handle defer: 9
+2024-01-28 17:36:20,821 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: defer
+2024-01-28 17:36:20,821 INFO    SenderThread:14684 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-01-28 17:36:20,821 INFO    SenderThread:14684 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-01-28 17:36:21,261 INFO    SenderThread:14684 [dir_watcher.py:_on_file_modified():288] file/dir modified: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:36:21,262 INFO    SenderThread:14684 [dir_watcher.py:finish():388] scan: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files
+2024-01-28 17:36:21,263 INFO    SenderThread:14684 [dir_watcher.py:finish():402] scan save: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\config.yaml config.yaml
+2024-01-28 17:36:21,263 INFO    SenderThread:14684 [dir_watcher.py:finish():402] scan save: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log output.log
+2024-01-28 17:36:21,268 INFO    SenderThread:14684 [dir_watcher.py:finish():402] scan save: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\requirements.txt requirements.txt
+2024-01-28 17:36:21,274 INFO    SenderThread:14684 [dir_watcher.py:finish():402] scan save: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\wandb-metadata.json wandb-metadata.json
+2024-01-28 17:36:21,274 INFO    SenderThread:14684 [dir_watcher.py:finish():402] scan save: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\wandb-summary.json wandb-summary.json
+2024-01-28 17:36:21,283 INFO    SenderThread:14684 [dir_watcher.py:finish():402] scan save: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\confusion_matrix_1_c7a4cd96603052c33d3d.png media/images/confusion_matrix_1_c7a4cd96603052c33d3d.png
+2024-01-28 17:36:21,283 INFO    SenderThread:14684 [dir_watcher.py:finish():402] scan save: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\confusion_matrix_normalized_1_25bc49fad25b53966157.png media/images/confusion_matrix_normalized_1_25bc49fad25b53966157.png
+2024-01-28 17:36:21,284 INFO    SenderThread:14684 [dir_watcher.py:finish():402] scan save: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\results_1_6ee4a4c321348226579f.png media/images/results_1_6ee4a4c321348226579f.png
+2024-01-28 17:36:21,284 INFO    SenderThread:14684 [dir_watcher.py:finish():402] scan save: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\train_batch0_1_98d27230f8db230cfedb.jpg media/images/train_batch0_1_98d27230f8db230cfedb.jpg
+2024-01-28 17:36:21,284 INFO    SenderThread:14684 [dir_watcher.py:finish():402] scan save: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\train_batch1_1_3663f9dacc53b7ad4dbc.jpg media/images/train_batch1_1_3663f9dacc53b7ad4dbc.jpg
+2024-01-28 17:36:21,284 INFO    SenderThread:14684 [dir_watcher.py:finish():402] scan save: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\train_batch2_1_22cb47de049d40dcba39.jpg media/images/train_batch2_1_22cb47de049d40dcba39.jpg
+2024-01-28 17:36:21,285 INFO    SenderThread:14684 [dir_watcher.py:finish():402] scan save: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\val_batch0_labels_1_06f0123ddad32e744191.jpg media/images/val_batch0_labels_1_06f0123ddad32e744191.jpg
+2024-01-28 17:36:21,285 INFO    SenderThread:14684 [dir_watcher.py:finish():402] scan save: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\val_batch0_labels_1_fe0b0bdde8334fafc5cf.jpg media/images/val_batch0_labels_1_fe0b0bdde8334fafc5cf.jpg
+2024-01-28 17:36:21,285 INFO    SenderThread:14684 [dir_watcher.py:finish():402] scan save: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\val_batch0_pred_1_89e3b2371e2808b987c5.jpg media/images/val_batch0_pred_1_89e3b2371e2808b987c5.jpg
+2024-01-28 17:36:21,286 INFO    SenderThread:14684 [dir_watcher.py:finish():402] scan save: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\val_batch0_pred_1_fd9de2e4d973d66e7d9b.jpg media/images/val_batch0_pred_1_fd9de2e4d973d66e7d9b.jpg
+2024-01-28 17:36:21,287 INFO    SenderThread:14684 [dir_watcher.py:finish():402] scan save: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\val_batch1_labels_1_5f8b20c0fbee7a8c5522.jpg media/images/val_batch1_labels_1_5f8b20c0fbee7a8c5522.jpg
+2024-01-28 17:36:21,287 INFO    SenderThread:14684 [dir_watcher.py:finish():402] scan save: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\val_batch1_labels_1_c132c9aec97e81080d36.jpg media/images/val_batch1_labels_1_c132c9aec97e81080d36.jpg
+2024-01-28 17:36:21,288 INFO    SenderThread:14684 [dir_watcher.py:finish():402] scan save: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\val_batch1_pred_1_50c16dcd54a4e3364893.jpg media/images/val_batch1_pred_1_50c16dcd54a4e3364893.jpg
+2024-01-28 17:36:21,288 INFO    SenderThread:14684 [dir_watcher.py:finish():402] scan save: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\val_batch1_pred_1_f2a1523107247c383b3a.jpg media/images/val_batch1_pred_1_f2a1523107247c383b3a.jpg
+2024-01-28 17:36:21,288 INFO    SenderThread:14684 [dir_watcher.py:finish():402] scan save: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\val_batch2_labels_1_2c7ca7591875df9640a8.jpg media/images/val_batch2_labels_1_2c7ca7591875df9640a8.jpg
+2024-01-28 17:36:21,288 INFO    SenderThread:14684 [dir_watcher.py:finish():402] scan save: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\val_batch2_labels_1_aa8d2bea12e4021037c5.jpg media/images/val_batch2_labels_1_aa8d2bea12e4021037c5.jpg
+2024-01-28 17:36:21,289 INFO    SenderThread:14684 [dir_watcher.py:finish():402] scan save: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\val_batch2_pred_1_805976cc696aeb0ae87c.jpg media/images/val_batch2_pred_1_805976cc696aeb0ae87c.jpg
+2024-01-28 17:36:21,289 INFO    SenderThread:14684 [dir_watcher.py:finish():402] scan save: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\media\images\val_batch2_pred_1_fa73038ae7e8dc69f0b6.jpg media/images/val_batch2_pred_1_fa73038ae7e8dc69f0b6.jpg
+2024-01-28 17:36:21,289 INFO    SenderThread:14684 [sender.py:transition_state():617] send defer: 10
+2024-01-28 17:36:21,289 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 17:36:21,290 INFO    HandlerThread:14684 [handler.py:handle_request_defer():172] handle defer: 10
+2024-01-28 17:36:21,290 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: defer
+2024-01-28 17:36:21,290 INFO    SenderThread:14684 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-01-28 17:36:21,290 INFO    SenderThread:14684 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-28 17:36:21,321 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-28 17:36:21,322 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: poll_exit
+2024-01-28 17:36:21,706 INFO    wandb-upload_5:14684 [upload_job.py:push():131] Uploaded file f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\config.yaml
+2024-01-28 17:36:21,708 INFO    wandb-upload_0:14684 [upload_job.py:push():131] Uploaded file f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\requirements.txt
+2024-01-28 17:36:21,708 INFO    wandb-upload_6:14684 [upload_job.py:push():131] Uploaded file f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\output.log
+2024-01-28 17:36:21,721 INFO    wandb-upload_3:14684 [upload_job.py:push():131] Uploaded file f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\files\wandb-summary.json
+2024-01-28 17:36:21,938 INFO    Thread-15 :14684 [sender.py:transition_state():617] send defer: 11
+2024-01-28 17:36:21,939 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 17:36:21,939 INFO    HandlerThread:14684 [handler.py:handle_request_defer():172] handle defer: 11
+2024-01-28 17:36:21,940 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: defer
+2024-01-28 17:36:21,940 INFO    SenderThread:14684 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-01-28 17:36:21,940 INFO    SenderThread:14684 [file_pusher.py:join():181] waiting for file pusher
+2024-01-28 17:36:21,940 INFO    SenderThread:14684 [sender.py:transition_state():617] send defer: 12
+2024-01-28 17:36:21,940 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 17:36:21,940 INFO    HandlerThread:14684 [handler.py:handle_request_defer():172] handle defer: 12
+2024-01-28 17:36:21,941 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: defer
+2024-01-28 17:36:21,941 INFO    SenderThread:14684 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-01-28 17:36:21,941 INFO    SenderThread:14684 [file_stream.py:finish():595] file stream finish called
+2024-01-28 17:36:22,331 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-28 17:36:22,500 INFO    SenderThread:14684 [file_stream.py:finish():599] file stream finish is done
+2024-01-28 17:36:22,501 INFO    SenderThread:14684 [sender.py:transition_state():617] send defer: 13
+2024-01-28 17:36:22,501 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: poll_exit
+2024-01-28 17:36:22,501 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 17:36:22,501 INFO    HandlerThread:14684 [handler.py:handle_request_defer():172] handle defer: 13
+2024-01-28 17:36:22,502 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: defer
+2024-01-28 17:36:22,502 INFO    SenderThread:14684 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-01-28 17:36:22,502 INFO    SenderThread:14684 [sender.py:transition_state():617] send defer: 14
+2024-01-28 17:36:22,504 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: defer
+2024-01-28 17:36:22,504 INFO    HandlerThread:14684 [handler.py:handle_request_defer():172] handle defer: 14
+2024-01-28 17:36:22,504 DEBUG   SenderThread:14684 [sender.py:send():382] send: final
+2024-01-28 17:36:22,505 DEBUG   SenderThread:14684 [sender.py:send():382] send: footer
+2024-01-28 17:36:22,505 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: defer
+2024-01-28 17:36:22,505 INFO    SenderThread:14684 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-01-28 17:36:22,506 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-28 17:36:22,507 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: poll_exit
+2024-01-28 17:36:22,508 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-28 17:36:22,509 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: server_info
+2024-01-28 17:36:22,510 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: get_summary
+2024-01-28 17:36:22,510 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: sampled_history
+2024-01-28 17:36:22,511 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: server_info
+2024-01-28 17:36:22,511 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: job_info
+2024-01-28 17:36:22,688 DEBUG   SenderThread:14684 [sender.py:send_request():409] send_request: job_info
+2024-01-28 17:36:22,690 DEBUG   HandlerThread:14684 [handler.py:handle_request():146] handle_request: shutdown
+2024-01-28 17:36:22,690 INFO    HandlerThread:14684 [handler.py:finish():866] shutting down handler
+2024-01-28 17:36:23,517 INFO    WriterThread:14684 [datastore.py:close():294] close: f:\pet projects\ImageQuizBot\wandb\run-20240128_173241-dorjd9h5\run-dorjd9h5.wandb
+2024-01-28 17:36:23,692 INFO    SenderThread:14684 [sender.py:finish():1548] shutting down sender
+2024-01-28 17:36:23,692 INFO    SenderThread:14684 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-28 17:36:23,692 INFO    SenderThread:14684 [file_pusher.py:join():181] waiting for file pusher

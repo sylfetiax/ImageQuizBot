@@ -1,0 +1,105 @@
+
+[34m[1mAMP: [39m[22mrunning Automatic Mixed Precision (AMP) checks with YOLOv8n...
+[34m[1mAMP: [39m[22mchecks passed ✅
+WARNING ⚠️ imgsz=[70] must be multiple of max stride 32, updating to [96]
+[34m[1mtrain: [39m[22mScanning F:\pet projects\ImageQuizBot\data_new\train... 25384 images, 0 corrupt: 100%|██████████| 25384/25384 [00:00<?, ?it/s]
+[34m[1mval: [39m[22mScanning F:\pet projects\ImageQuizBot\data_new\val... 1908 images, 0 corrupt: 100%|██████████| 1908/1908 [00:00<?, ?it/s]
+[34m[1moptimizer:[39m[22m Adam(lr=0.0003, momentum=0.937) with parameter groups 26 weight(decay=0.0), 27 weight(decay=0.0005), 27 bias(decay=0.0)
+[34m[1mTensorBoard: [39m[22mmodel graph visualization added ✅
+Image sizes 96 train, 96 val
+Using 1 dataloader workers
+Logging results to [1mruns\classify\train8
+Starting training for 1 epochs...
+      Epoch    GPU_mem       loss  Instances       Size
+
+        1/1     0.176G      1.317         16         96:   1%|▏         | 23/1587 [00:03<02:13, 11.75it/s]
+100%|██████████| 755k/755k [00:00<00:00, 1.58MB/s]   96:   3%|▎         | 45/1587 [00:05<02:31, 10.21it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        1/1     0.178G     0.5465          8         96: 100%|██████████| 1587/1587 [02:22<00:00, 11.17it/s]
+
+
+               classes   top1_acc   top5_acc: 100%|██████████| 60/60 [00:04<00:00, 14.23it/s]
+                   all      0.925          1
+1 epochs completed in 0.045 hours.
+Optimizer stripped from runs\classify\train8\weights\last.pt, 3.0MB
+Optimizer stripped from runs\classify\train8\weights\best.pt, 3.0MB
+Validating runs\classify\train8\weights\best.pt...
+Ultralytics YOLOv8.1.6 🚀 Python-3.9.7 torch-2.1.2+cu118 CUDA:0 (NVIDIA GeForce 940MX, 2048MiB)
+YOLOv8n-cls summary (fused): 73 layers, 1440004 parameters, 0 gradients, 3.3 GFLOPs
+[34m[1mtrain:[39m[22m F:\pet projects\ImageQuizBot\data_new\train... found 25384 images in 4 classes ✅
+[34m[1mval:[39m[22m F:\pet projects\ImageQuizBot\data_new\val... found 1908 images in 4 classes ✅
+[34m[1mtest:[39m[22m None...
+
+
+
+               classes   top1_acc   top5_acc: 100%|██████████| 60/60 [00:05<00:00, 10.21it/s]
+                   all      0.925          1
+Speed: 0.2ms preprocess, 1.2ms inference, 0.0ms loss, 0.0ms postprocess per image
+Results saved to [1mruns\classify\train8
+Results saved to [1mruns\classify\train8

@@ -1,0 +1,4 @@
+
+[34m[1mAMP: [39m[22mrunning Automatic Mixed Precision (AMP) checks with YOLOv8n...
+[34m[1mAMP: [39m[22mchecks passed ✅
+WARNING ⚠️ imgsz=[70] must be multiple of max stride 32, updating to [96]
